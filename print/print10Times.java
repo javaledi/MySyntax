@@ -1,5 +1,7 @@
 class Solution
 {
+   // Порядок методов в классе не важен
+   
    public static void main(String[] args)
    {
      printWiFi10Times(); // Вызываем метод printWiFi10Times
