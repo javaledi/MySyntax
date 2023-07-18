@@ -1,0 +1,1 @@
+double delta = Math.abs(d1 - d2); // Метод abs() возвращает значение типа double
