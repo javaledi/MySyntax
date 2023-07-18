@@ -21,3 +21,42 @@ class Solution
 
 // Параметры метода - это именно переменные, которым присваиваются определенные значения при вызове метода.
 // Сами же значения "Привет", "Пока", 10 и 20 называются АРГУМЕНТАМИ МЕТОДА.
+
+
+/*
+class Solution
+{
+   public static void printLines(String text, int count)
+   {
+     for (int i = 0; i < count; i++)
+       System.out.print(text);
+   }
+
+   public static void main(String[] args)
+   {
+     String str = "Привет";
+     int n = 10;
+     printLines(str, n);
+   }
+}
+*/
+
+// Конфликт имен переменных при вызове метода
+
+/*
+class Solution
+{
+   public static void printLines(String text, int count)
+   {
+     for (int i = 0; i < count; i++)
+       System.out.print(text);
+   }
+
+   public static void main(String[] args)
+   {
+     String text = "Привет";
+     int count = 10;
+     printLines(text, count);
+   }
+}
+*/
