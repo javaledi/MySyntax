@@ -23,3 +23,12 @@ System.out.println(0.0 / 0.0); // NaN
 System.out.println(infinity / infinity); // NaN
 
 // Любая операция с NaN дает NaN.
+
+
+System.out.println( 100.0 / 0.0 ); // Infinity
+
+System.out.println( -100.0 / 0.0 ); // -Infinity
+
+double a = 1d / 0d; // a == Infinity
+double b = a * 10; // b == Infinity
+double c = b - 100; // c == Infinity
