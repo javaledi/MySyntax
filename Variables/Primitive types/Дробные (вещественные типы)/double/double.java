@@ -32,3 +32,10 @@ System.out.println( -100.0 / 0.0 ); // -Infinity
 double a = 1d / 0d; // a == Infinity
 double b = a * 10; // b == Infinity
 double c = b - 100; // c == Infinity
+
+
+// Если в выражении участвуют целое число и число с плавающей точкой (float/double), 
+// целое число будет преобразовано в число с плавающей точкой (float/double), 
+// и только потом будет выполнена операция над ними.
+
+// Если в операции участвуют float и double, то float будет преобразован к double. 
