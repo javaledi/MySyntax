@@ -9,3 +9,17 @@ double a = 1234567890.1357913579; // Значение переменной 12345
 // (степень двойки — от -1024 до +1023). 
 // Тип double легко может хранить число с сотней нулей после запятой:
 double a = 2E-300 * 3E+302 // Значение переменной 600.0
+
+
+double infinity = 1d / 0d; // NaN
+
+double a = 0.0 / 0.0; // a == NaN
+double b = a * 10; // b == NaN
+double c = b - 100; // c == NaN
+double d = a + infinity; // d == NaN
+
+System.out.println(0.0 / 0.0); // NaN
+
+System.out.println(infinity / infinity); // NaN
+
+// Любая операция с NaN дает NaN.
