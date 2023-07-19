@@ -16,6 +16,9 @@ public static void write(int x, int y) // Объявлен метод write с
 }
 
 
+// print(int a; int b) // неправильно
+
+
 class Solution
 {
    public static void main(String[] args)
